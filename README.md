@@ -8,7 +8,7 @@
 
 ## Overview
 
-In our previous Tic Tac Toe lab, we build a method, `#position_taken?`, that checks to see if the user's submitted position is free or already filled with a token. This is a type of **validation**. Our `#position_taken?` method protects our game from breaking when the use (accidentally or otherwise) submits a position that isn't available.
+In our previous Tic Tac Toe lab, we built a method, `#position_taken?`, that checks to see if the user's submitted position is free or already filled with a token. This is a type of **validation**. Our `#position_taken?` method protects our game from breaking when the use (accidentally or otherwise) submits a position that isn't available.
 
 Our validation is still incomplete however. What if a user submits a position that isn't even on the board? A more complete validation might look something like this:
 
