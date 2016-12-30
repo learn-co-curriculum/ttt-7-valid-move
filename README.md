@@ -40,7 +40,7 @@ end
 
 ## Instructions
 
-This lab is test-driven, so run the test suite and use the output to help you solve this one. Here are a few things to keep in mind:
+As with all our labs, this lab is also test-driven, so run the test suite and use the output to help you solve this one. Here are a few things to keep in mind:
 
 * Arrays are indexed starting at 0 and a user playing your game is unlikely to know that. When a user types in that they'd like to fill position 1, they *really* mean that they'd like to fill the board array at the index of `0`. You'll have to account for this in your method.
 
