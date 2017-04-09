@@ -42,7 +42,7 @@ end
 
 This lab is test-driven, so run the test suite and use the output to help you solve this one. Here are a few things to keep in mind:
 
-* Arrays are indexed starting at 0 and a user playing your game is unlikely to know that. When a user types in that they'd like to fill position 1, they *really* mean that they'd like to fill the board array at the index of `0`. You'll have to account for this in your method.
+* Arrays are indexed starting at 0 and a user playing your game is unlikely to know that. When a user types in that they'd like to fill position 1, they *really* mean that they'd like to fill the board array at the index of `0`. You'll have to account for this in your method. But in the rspec of this chapter, we would test by passing index values from 0-8 itself. So you can use the index directly without modification.
 
 * The valid positions on the board, from the user's point of view, are 1-9, but we'll be checking to see if we have a number between 0-8 because we'll be looking at the array index. If the user inputs a number not included in that range, their input is invalid. There are a few different ways to check to see if a number is included in a range. Look up the [`#between?`](http://ruby-doc.org/core-2.2.3/Comparable.html#method-i-between-3F) method for starters.
 
@@ -51,3 +51,5 @@ This lab is test-driven, so run the test suite and use the output to help you so
 * Think back to our lessons on the concept of truthiness. Both `false` and `nil` are considered to be "falsey". So, either a `false` or `nil` return value for an invalid move will suffice.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ttt-7-valid-move' title='Validating Input Tic Tac Toe'>Validating Input Tic Tac Toe</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ttt-7-valid-move'>Valid Tic Tac Toe Move</a> on Learn.co and start learning to code for free.</p>
